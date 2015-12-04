@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "username": "steelchar",
+      "money": 0
+    },
+    {
+      "username": "assembling",
+      "money": 0
+    },
+    {
+      "username": "firestatics",
+      "money": 0
+    },
+    {
+      "username": "megakatsuma",
+      "money": 0
+    },
+    {
+      "username": "knightchar",
+      "money": 75,
+      "tickets": null
+    },
+    {
+      "username": "skyavvo",
+      "money": 0
+    },
+    {
+      "username": "mazambo",
+      "money": 0
+    },
+    {
+      "username": "ashyudhajit",
+      "money": 0
+    },
+    {
+      "username": "ggdaca",
+      "money": 0
+    },
+    {
+      "username": "weeyellowboyvgc",
+      "money": 7,
+      "tickets": null
+    },
+    {
+      "username": "assemblingsbank",
+      "money": 0
+    },
+    {
+      "username": "arjunb",
+      "money": 0
+    },
+    {
+      "username": "fierybott",
+      "money": 0
+    },
+    {
+      "username": "reputable",
+      "money": 0
+    },
+    {
+      "username": "jellal",
+      "money": 0
+    },
+    {
+      "username": "camilas",
+      "money": 210,
+      "tickets": [
+        "56062352"
+      ]
+    },
+    {
+      "username": "iriseevee",
+      "money": 2
+    },
+    {
+      "username": "vvva",
+      "money": 8
+    },
+    {
+      "username": "ransei",
+      "money": 10
+    },
+    {
+      "username": "ayrus",
+      "money": 0
+    },
+    {
+      "username": "sparkl3y",
+      "money": 0
+    },
+    {
+      "username": "lloydjara",
+      "money": 11
+    },
+    {
+      "username": "abyssinian",
+      "money": 0
+    },
+    {
+      "username": "",
+      "money": 0
+    },
+    {
+      "username": "noivernx60",
+      "money": 1
+    },
+    {
+      "username": "swissavvo",
+      "money": 0
+    },
+    {
+      "username": "yourmagic",
+      "money": 0
+    },
+    {
+      "username": "arun9332",
+      "money": 0
+    },
+    {
+      "username": "ggpfft",
+      "money": 0
+    },
+    {
+      "username": "kingharu",
+      "money": 10
+    },
+    {
+      "username": "kingharusbank",
+      "money": 0
+    },
+    {
+      "username": "danielsilva",
+      "money": 7
+    },
+    {
+      "username": "nightvisionbr",
+      "money": 3
+    },
+    {
+      "username": "steelbot",
+      "money": 10
+    },
+    {
+      "username": "nerderator",
+      "money": 15
+    },
+    {
+      "username": "noiernx60",
+      "money": 0
+    },
+    {
+      "username": "01charizard",
+      "money": 0
+    },
+    {
+      "username": "xechov3",
+      "money": 0
+    },
+    {
+      "username": "defiantquizzy",
+      "money": 0
+    },
+    {
+      "username": "quizzyy",
+      "money": 323
+    },
+    {
+      "username": "natm",
+      "money": 0
+    },
+    {
+      "username": "xechosbank",
+      "money": 0
+    },
+    {
+      "username": "sprng",
+      "money": 1
+    },
+    {
+      "username": "phoenixlion",
+      "money": 209,
+      "tickets": [
+        "673714686",
+        "240440135"
+      ]
+    },
+    {
+      "username": "srpng",
+      "money": 0
+    },
+    {
+      "username": "yattery",
+      "money": 0
+    },
+    {
+      "username": "springsbank",
+      "money": 0
+    },
+    {
+      "username": "thundercamilas",
+      "money": 0
+    },
+    {
+      "username": "phoenixliong",
+      "money": 45,
+      "tickets": [
+        "600151770",
+        "769331407"
+      ]
+    },
+    {
+      "username": "darkero",
+      "money": 749
+    },
+    {
+      "username": "combusken",
+      "money": 0
+    },
+    {
+      "username": "trublaze",
+      "money": 100
+    },
+    {
+      "username": "elizabth",
+      "money": 763
+    },
+    {
+      "username": "elizabethsbank",
+      "money": 11
+    },
+    {
+      "username": "elizabthsbank",
+      "money": 0
+    },
+    {
+      "username": "thundernyan",
+      "money": 0
+    },
+    {
+      "username": "traineralain",
+      "money": 0
+    },
+    {
+      "username": "quizzysbank",
+      "money": 300
+    }
+  ],
+  "pot": 25
+}
