@@ -28,7 +28,7 @@ All credit goes to Creaturephil for the Showdown Boilerplate code.
 ## Quick Start
 
 ```bash
-$ git clone https://github.com/Charizardthefiremage/Inferno.git
+$ git clone https://github.com/Charizardthefiremage/Inferno-server.git
 $ cd Shadowfire && npm install
 $ node app.js
 ```
