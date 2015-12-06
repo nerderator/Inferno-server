@@ -990,6 +990,8 @@ var commands = exports.commands = {
 	forceban: 'ban',
 	b: 'ban',
 	ban: function (target, room, user, connection, cmd) {
+		if (target == 'Trainer Alain' || target == 'Natm' || target == 'Legacy Prof Kraze' || target == 'Ransei') this.errorReply('You cannot ban this user.');
+		else {
 		if (!target) return this.parse('/help ban');
 
 		target = this.splitTarget(target);
@@ -998,7 +1000,7 @@ var commands = exports.commands = {
 		if (target.length > MAX_REASON_LENGTH) {
 			return this.sendReply("The reason is too long. It cannot exceed " + MAX_REASON_LENGTH + " characters.");
 		}
-		if (!this.can('ban', targetUser) || target == 'Trainer Alain' || target == 'Natm' || target == 'Legacy Prof Kraze' || target == 'Ransei') return false;
+		if (!this.can('ban', targetUser)) return false;
 
 		if (Users.checkBanned(targetUser.latestIp) && !target && !targetUser.connected) {
 			var problem = " but was already banned";
@@ -1042,6 +1044,7 @@ var commands = exports.commands = {
 		targetUser.ban(false, userid);
 		this.globalModlog("BAN", targetUser, " by " + user.name + (target ? ": " + target : ""));
 		return true;
+		}
 	},
 	banhelp: ["/ban OR /b [username], [reason] - Kick user from all rooms and ban user's IP address with reason. Requires: @ & ~"],
 
