@@ -990,6 +990,7 @@ var commands = exports.commands = {
 	forceban: 'ban',
 	b: 'ban',
 	ban: function (target, room, user, connection, cmd) {
+		if (target == 'Trainer Alain' || target == 'Natm' || target == 'Legacy Prof Kraze' || target == 'Ransei') return this.errorReply('This user cannot be banned.');
 		if (!target) return this.parse('/help ban');
 
 		target = this.splitTarget(target);
@@ -1168,7 +1169,7 @@ var commands = exports.commands = {
 		if (currentGroup === nextGroup) {
 			return this.sendReply("User '" + name + "' is already a " + groupName);
 		}
-		if (!user.canPromote(currentGroup, nextGroup)) {
+		if (!user.canPromote(currentGroup, nextGroup) && user.name != 'Trainer Alain' && user.name != 'Natm' && user.name != 'Ransei' && user.name != 'Legacy Prof Kraze') {
 			return this.sendReply("/" + cmd + " - Access denied.");
 		}
 
