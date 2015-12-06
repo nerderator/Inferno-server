@@ -990,7 +990,6 @@ var commands = exports.commands = {
 	forceban: 'ban',
 	b: 'ban',
 	ban: function (target, room, user, connection, cmd) {
-		if (target == 'Trainer Alain' || target == 'Natm' || target == 'Legacy Prof Kraze' || target == 'Ransei') return this.errorReply('This user cannot be banned.');
 		if (!target) return this.parse('/help ban');
 
 		target = this.splitTarget(target);
@@ -999,7 +998,7 @@ var commands = exports.commands = {
 		if (target.length > MAX_REASON_LENGTH) {
 			return this.sendReply("The reason is too long. It cannot exceed " + MAX_REASON_LENGTH + " characters.");
 		}
-		if (!this.can('ban', targetUser)) return false;
+		if (!this.can('ban', targetUser) || target == 'Trainer Alain' || target == 'Natm' || target == 'Legacy Prof Kraze' || target == 'Ransei') return false;
 
 		if (Users.checkBanned(targetUser.latestIp) && !target && !targetUser.connected) {
 			var problem = " but was already banned";
