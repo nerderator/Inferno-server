@@ -338,6 +338,12 @@
     color: #413B45;
     margin-bottom: 1px;
   }
+/*Battle CSS*/
+
+  .backdrop {
+    background: url(http://i.imgur.com/sgsCFwo.png) !important;
+        opacity: 0.6;
+}
  
   .battle-log .chat {
     padding: 3px 1px;
@@ -346,17 +352,16 @@
   .battle-log h2 {
     text-align: right;
     font-style: italic;
-    border-color: #413B45;
-    background: #FABCBC;
-    color: #413B45;
+    border-color: #000000;
+    background: #ff9966;
+    color: #000000;
   }
  
   .battle-log-add {
-    background: #FABCBC;
-    border: 1px solid #413B45;
-    color: #413B45;
+    background: #ff9966;
+    border: 1px solid #000000;
+    color: #000000;
   }
- 
   .battle {
     border-color: #413B45;
   }
@@ -515,6 +520,10 @@
 	background:rgba(244, 244, 244, 0.5)
   }
 
+/**************
+  * Custom Colors *
+  **************/
+
 .chat.chatmessage-traineralain  strong { 
     color:darkblue !important;
   }
@@ -526,6 +535,22 @@
 .chat.chatmessage-ransei  strong { 
     color:red !important;
   }
+
+.chat.chatmessage-camilas em { 
+	color: blue !important; 
+}
+.chat.chatmessage-nick151 em { 
+	color: green !important; 
+}
+.chat.chatmessage-fortunt em { 
+	color: #ff00ff !important; 
+}
+.chat.chatmessage-traineralain em { 
+	color: darkblue !important; 
+}
+.chat.chatmessage-natm em { 
+	color: #9900cc !important; 
+}
 
 .chat.chatmessage-hppily  strong { 
     color:pink !important;
@@ -597,4 +622,80 @@
 
 .chat.chatmessage-feverick  strong { 
     color:#00cc00 !important;
+  }
+
+  #lobby-userlist-user-thunderren, #flygonfriends-userlist-user-thunderren, #casino-userlist-user-thunderren { 
+    background: rgba(244, 244, 244, 0.8) url("http://orig13.deviantart.net/2e4e/f/2015/062/b/5/shiny_the_flygon_icon_by_the_shiny_store-d8kbesg.gif") right no-repeat;
+  }
+
+  #lobby-userlist-user-hypershaymin, #1v1-userlist-user-hypershaymin, #casino-userlist-user-hypershaymin { 
+    background: rgba(244, 244, 244, 0.8) url("http://media.pldh.net/pokexycons/490.png") right no-repeat;
+  }
+
+.chat.chatmessage-ggdaca  strong { 
+    color:purple !important;
+  }
+
+.chat.chatmessage-hppily  strong { 
+    color:#ff00cc !important;
+  }
+
+.chat.chatmessage-mystifi  strong { 
+    color:#006ee6 !important;
+  }
+
+.chat.chatmessage-fortunt  strong { 
+    color:#ff00ff !important;
+  }
+
+/*************************************
+  * Userlist Icons/ More Custom Colors *
+  ************************************/
+
+  #lobby-userlist-user-traineralain, #staff-userlist-user-traineralain, #shadowbanroom-userlist-user-traineralain, #tournaments-userlist-user-traineralain, #casino-userlist-user-traineralain, #femalehq-userlist-user-traineralain, #catchandevolve-userlist-user-traineralain, #smogontiers-userlist-user-traineralain, #leagueoflegends-userlist-user-traineralain, #1v1-userlist-user-traineralain, #bbc-userlist-user-traineralain, #roleplaying-userlist-user-traineralain, #theartbotshop-userlist-user-traineralain, #theranseiregion-userlist-user-traineralain, #thehangout-userlist-user-traineralain, #cancerlobbyshitposting-userlist-user-traineralain, #smashbros-userlist-user-traineralain, #monotype-userlist-user-traineralain { 
+    background: rgba(244, 244, 244, 0.8) url("http://media.pldh.net/pokexycons/006-mega-x.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-traineralain  em.group, #staff-userlist-user-traineralain  em.group, #shadowbanroom-userlist-user-traineralain  em.group, #casino-userlist-user-traineralain  em.group, #tournaments-userlist-user-traineralain  em.group, #femalehq-userlist-user-traineralain  em.group, #catchevolve-userlist-user-traineralain  em.group, #smashbros-userlist-user-traineralain  em.group, #1v1-userlist-user-traineralain  em.group, #tournaments-userlist-user-traineralain  em.group, #bbc-userlist-user-traineralain  em.group, #smogontiers-userlist-user-traineralain  em.group, #roleplaying-userlist-user-traineralain  em.group, #thehangout-userlist-user-traineralain  em.group, #theartbotshop-userlist-user-traineralain  em.group, #theranseiregion-userlist-user-traineralain  em.group, #cancerlobbyshitposting-userlist-user-traineralain  em.group, #monotype-userlist-user-traineralain  em.group, #shadowleague-userlist-user-traineralain  em.group { 
+    color:#00ffff;
+  }
+
+  #lobby-userlist-user-nick151  em.group, #staff-userlist-user-nick151  em.group, #casino-userlist-user-nick151  em.group { 
+    color:red;
+  }
+
+  #lobby-userlist-user-nick151, #staff-userlist-user-nick151, #casino-userlist-user-nick151 { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/2TGk661.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-shiryuki  em.group, #casino-userlist-user-shiryuki  em.group, #staff-userlist-user-shiryuki  em.group { 
+    color:red;
+  }
+
+  #tournaments-userlist-user-ranseihttpspritespokecheckorgsicon384png, #theranseiregion-userlist-user-ranseihttpspritespokecheckorgsicon384png { 
+    background: rgba(244, 244, 244, 0.8) url("Lobby") right no-repeat;
+  }
+
+  #lobby-userlist-user-ransei, #tournaments-userlist-user-ransei, #theranseiregion-userlist-user-ransei { 
+    background: rgba(244, 244, 244, 0.8) url("http://sprites.pokecheck.org/sicon/384.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-camilas, #casino-userlist-user-camilas, #tournaments-userlist-user-camilas { 
+    background: rgba(244, 244, 244, 0.8) url("http://imgur.com/7rdvKm8.gif") right no-repeat;
+  }
+
+  #lobby-userlist-user-camilas, #casino-userlist-user-camilas, #staff-userlist-user-camilas { 
+    background: rgba(244, 244, 244, 0.8) url("https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/shiny/rayquaza-mega.png") right no-repeat;
+  }
+
+  #staff-userlist-user-neowulf, #lobby-userlist-user-neowulf, #casino-userlist-user-neowulf { 
+    background: rgba(244, 244, 244, 0.8) url("http://vignette3.wikia.nocookie.net/pokemon/images/0/03/212M.png/revision/latest?cb=20131021093532") right no-repeat;
+  }
+
+  #lobby-userlist-user-natm { 
+    background: rgba(244, 244, 244, 0.8) url("http://media-cerulean.cursecdn.com/attachments/6/427/icon-absol.png") right no-repeat;
+  }
+
+  #staff-userlist-user-neowulf, #lobby-userlist-user-neowulf, #casino-userlist-user-neowulf { 
+    background: rgba(244, 244, 244, 0.8) url("http://pldh.net/media/pokexycons/212-mega.png") right no-repeat;
   }
